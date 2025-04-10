@@ -89,22 +89,32 @@ section {
 }
 
 .full-graph-container {
-    flex: 0 0 70%; /* 70% width for the Tableau visualization */
-    max-width: 70%;
+    flex: 0 0 60%; /* 60% width for the Tableau visualization */
+    max-width: 60%;
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.full-graph-container object {
+    width: 100% !important; /* Ensure Tableau visualization takes up the full width of the container */
+    height: 100% !important; /* Adjust height proportionally */
 }
 
 .graph-div {
-
     display: flex;
     justify-content: space-between; /* This ensures they are spaced out */
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: stretch;
     width: 100%;
     gap: 2rem; /* Adjust space between text and graph */
+    margin-top: 5rem;
 }
 
-.graph-div text-block {
-    flex: 0 0 30%; /* 30% width for the text */
-    max-width: 30%;
+.graph-div .text-block {
+    flex: 0 0 40%; /* 30% width for the text */
+    max-width: 40%;
     padding: 1rem;
     box-sizing: border-box;
 }
