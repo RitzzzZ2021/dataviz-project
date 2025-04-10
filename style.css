@@ -108,14 +108,14 @@ section {
     /* align-items: flex-start; */
     align-items: stretch;
     width: 100%;
-    gap: 2rem; /* Adjust space between text and graph */
+    gap: 1rem; /* Adjust space between text and graph */
     margin-top: 5rem;
 }
 
 .graph-div .text-block {
     flex: 0 0 40%; /* 30% width for the text */
     max-width: 40%;
-    padding: 1rem;
+    padding: 3rem;
     box-sizing: border-box;
 }
 
