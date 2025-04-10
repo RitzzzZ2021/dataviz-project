@@ -88,18 +88,25 @@ section {
     min-width: 50vw;
 }
 
-.graph-div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-
+.full-graph-container {
+    flex: 0 0 70%; /* 70% width for the Tableau visualization */
+    max-width: 70%;
 }
 
-/* Visualization styles */
-.full-graph-container {
-    background-color: white;
-    width: 60%;
+.graph-div {
+
+    display: flex;
+    justify-content: space-between; /* This ensures they are spaced out */
+    align-items: flex-start;
+    width: 100%;
+    gap: 2rem; /* Adjust space between text and graph */
+}
+
+.graph-div text-block {
+    flex: 0 0 30%; /* 30% width for the text */
+    max-width: 30%;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 
