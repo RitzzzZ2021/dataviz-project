@@ -82,12 +82,49 @@
     <section id="chapter-two">
         <div class="title">
             <div class="text-block">
-                <h1>Chapter II: title 2</h1>
+                <h1>Chapter II: Comparison of Disease Burden and Prevalence</h1>
                 <p>
-                    While Mental health is important to one’s overall health, mental health issues have persisted with no global reduction since 1990. This project focuses on analyzing the global burden of mental disorders, as highlighted by the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2019. The project explores how mental health problems vary geographically and demographically, identifies relationships between different disorders, and investigates underlying risk factors such as socioeconomic conditions.The primary dataset used is sourced from Kaggle, based on data from The Lancet Psychiatry study on the global burden of 12 mental disorders in 204 countries and territories from 1990 to 2019. 
+                    This section of our project explores the relationship between how frequently mental health disorders occur and the extent of their impact on people’s lives, as measured by Disability-Adjusted Life Years (DALYs). 
+                </p>
+                <p>     
+                    We aim to ask a key question: Do the most common mental health issues also cause the greatest harm to overall quality of life? Or do a few, less prevalent conditions account for a disproportionate share of suffering?
                 </p>
             </div>
         </div>
+
+        <div class="graph-div">
+            <div class='full-graph-container' id='viz1744501374551' style='position: relative'><noscript><a href='#'><img alt='Prevalence vs. Disease Burden of Mental Disorders ( 2019 ) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Prevalencevs_DiseaseBurdenofMentalDisorders2019&#47;Prevalencevs_DiseaseBurdenofMentalDisorders2019_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Prevalencevs_DiseaseBurdenofMentalDisorders2019&#47;Prevalencevs_DiseaseBurdenofMentalDisorders2019_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Prevalencevs_DiseaseBurdenofMentalDisorders2019&#47;Prevalencevs_DiseaseBurdenofMentalDisorders2019_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1744501374551');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='1777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class="text-block">
+                <h2>Disease Prevalence vs. Burden</h2>
+                <p>
+                    By comparing the global prevalence of each mental disorder with its corresponding DALY value, a scatterplot helps reveal how some disorders may be widespread but relatively less debilitating, while others—though less common—may have a disproportionate impact. The steepness of the trend line or the clustering of points indicates how DALYs change with prevalence:
+                </p>
+                <p>
+                    Depression and Anxiety disorders show a strong linear correlation, indicating that their widespread prevalence proportionally contributes to a significant global disease burden. Depressive disorders, with higher prevalence rates, show an even steeper increase in DALYs, which highlights their severe impact on quality of life. Bipolar disorders, despite lower prevalence compared to anxiety and depression, still result in substantial DALYs due to their chronic and disabling nature. Schizophrenia disorders, though rare, display a disproportionate impact on DALYs, which shows how it may have a high disease burden for affected individuals. 
+                </p>
+            </div>
+        </div>
+
+        <div class="graph-div">
+            <div class='full-graph-container' id='viz1744501880006' style='position: relative'><noscript><a href='#'><img alt='DALY Trends Over Time (1990-2019) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;LineChart-DALYTrendsOverTime&#47;DALYTrendsOverTime1990-2019&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='LineChart-DALYTrendsOverTime&#47;DALYTrendsOverTime1990-2019' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;LineChart-DALYTrendsOverTime&#47;DALYTrendsOverTime1990-2019&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1744501880006');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class="text-block">
+                <h2>World DALY Trends Over Time (1990-2019)</h2>
+                <p>
+                    To capture how the burden of different mental disorders has evolved over time, a line chart was used to visualize DALY trends from 1990 to 2019. All conditions besides depression have been steady without decreasing despite growing awareness, while depression has shown a slight fluctuation decrease since 2010. Anxiety and Depressive disorders, with high DALYs rates, suggests that these conditions remain pressing global health challenges despite increased awareness and interventions.
+                </p>
+            </div>
+        </div>
+
+        <div class="graph-div">
+            <div class='full-graph-container' id='viz1744501972697' style='position: relative'><noscript><a href='#'><img alt='Mapping Disease Burden Impacts: DALYs across geographics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GS&#47;GSTG7ZMN7&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;GSTG7ZMN7' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GS&#47;GSTG7ZMN7&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1744501972697');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class="text-block">
+                <h2>Global DALY Distribution</h2>
+                <p>
+                    Lastly, a bar graph and geographical heat map of DALYs across countries was used to visualize the global distribution of mental health burdens. Interestingly, high-income countries tend to report higher DALYs, which possibly reflects both better diagnostic/reporting systems and societal pressures. Meanwhile, low- and middle-income countries, particularly in parts of Africa and Southeast Asia, despite Uganda, may show artificially low burdens due to underreporting and limited data. Some regions like Northern Europe and Australia also exhibit high burden levels despite strong healthcare systems, which indicates the complex, multifactorial nature of mental health challenges.
+                </p>
+            </div>
+        </div>
+
     </section> 
 
     <section id="chapter-three">
