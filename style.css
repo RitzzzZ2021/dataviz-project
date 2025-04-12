@@ -40,7 +40,6 @@ section {
 }
 
 .title {
-    height: 80vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -91,15 +90,15 @@ section {
 .full-graph-container {
     flex: 0 0 60%; /* 60% width for the Tableau visualization */
     max-width: 60%;
-    /* width: 100%; */
     height: 100vh;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
 }
 
 .full-graph-container object {
-    width: 100% !important; /* Ensure Tableau visualization takes up the full width of the container */
-    height: 100% !important; /* Adjust height proportionally */
+    width: 100%; /* Ensure Tableau visualization takes up the full width of the container */
+    height: 100%; /* Adjust height proportionally */
 }
 
 .graph-div {
