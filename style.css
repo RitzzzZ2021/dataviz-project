@@ -96,6 +96,10 @@ section {
     /* align-items: center; */
 }
 
+#chapter-three {
+    padding-bottom: 20rem;
+}
+
 .full-graph-container object {
     width: 100%; /* Ensure Tableau visualization takes up the full width of the container */
     height: 100%; /* Adjust height proportionally */
@@ -118,20 +122,6 @@ section {
     box-sizing: border-box;
 }
 
-.graph-div2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Optional: center the content */
-}
-
-.horizontal-graph-container {
-    margin-bottom: 20px; /* Adds space between graph and text */
-}
-
-.horizontal-graph-container object {
-    width: 100%; /* Ensure Tableau visualization takes up the full width of the container */
-    height: 100%; /* Adjust height proportionally */
-}
 
 body,
 h1,
