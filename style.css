@@ -26,6 +26,7 @@ section {
     align-items: center;
     scroll-snap-align: start;
     box-sizing: border-box;
+    margin-top: 5rem;
 }
 
 .flex-div {
@@ -53,7 +54,7 @@ section {
 
 .text-block {
     max-width: 60vw;
-    margin: 5rem auto;
+    margin: 3rem auto;
     padding: 0 1.5rem;
     /* margin-bottom: 2rem; */
 }
@@ -107,7 +108,7 @@ section {
     align-items: stretch;
     width: 100%;
     gap: 1rem; /* Adjust space between text and graph */
-    margin-top: 5rem;
+    margin-bottom: 8rem;
 }
 
 .graph-div .text-block {
