@@ -96,19 +96,6 @@ section {
     /* align-items: center; */
 }
 
-.horizontal-graph-container {
-    height: 100vh;
-    width: max-content;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-}
-
-
-#chapter-three {
-    padding-bottom: 20rem;
-}
-
 .full-graph-container object {
     width: 100%; /* Ensure Tableau visualization takes up the full width of the container */
     height: 100%; /* Adjust height proportionally */
