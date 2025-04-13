@@ -96,10 +96,6 @@ section {
     /* align-items: center; */
 }
 
-#chapter-three {
-    padding-bottom: 20rem;
-}
-
 .full-graph-container object {
     width: 100%; /* Ensure Tableau visualization takes up the full width of the container */
     height: 100%; /* Adjust height proportionally */
@@ -120,6 +116,13 @@ section {
     max-width: 40%;
     padding: 3rem;
     box-sizing: border-box;
+}
+
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
