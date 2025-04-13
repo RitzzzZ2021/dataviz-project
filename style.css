@@ -71,9 +71,33 @@ section {
     line-height: 1.6;
 }
 
+.content-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem; /* space between text and image */
+}
+
+
+.content-row2 p{
+    flex: 2;
+    line-height: 1.6;
+}
+
 .img-block {
     flex: 1;
     max-width: 40%;
+}
+
+.img-block2 {
+    flex: 1;
+    max-width: 40%;
+}
+
+.img-block2 img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .img-block img {
