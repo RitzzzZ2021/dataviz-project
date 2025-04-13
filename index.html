@@ -39,31 +39,50 @@
             <div class="text-block">
                 <h1>Chapter I: Exploring the Distribution and Trends of Mental Disorder Types</h1>
                 <p>
-                    While Mental health is important to one’s overall health, mental health issues have persisted with no global reduction since 1990. This project focuses on analyzing the global burden of mental disorders, as highlighted by the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2019. The project explores how mental health problems vary geographically and demographically, identifies relationships between different disorders, and investigates underlying risk factors such as socioeconomic conditions.The primary dataset used is sourced from Kaggle, based on data from The Lancet Psychiatry study on the global burden of 12 mental disorders in 204 countries and territories from 1990 to 2019. 
-                    
+                    Mental health is a growing concern worldwide — but "mental health issues" is a broad term, covering many different types of disorders. When talking about mental health globally, it's easy to focus only on the total prevalence of mental illness in each region, while ignoring an equally important question: what kinds of mental disorders are people actually experiencing?
+                </p>
+                <p>
+                    Understanding the distribution of mental disorder types over time is crucial. Different disorders require different care systems, resources, and interventions. If depressive disorders dominate, for example, the needed response might be very different than if anxiety or schizophrenia were the major drivers.
+                </p>
+                <p>
+                    This chapter aims to explore: 
+                </p>
+                <p>
+                    Which types of mental disorders dominate the global population over time, and how have their proportions changed across different years and regions?
                 </p>
             </div>
         </div>
         <div class="graph-div">
             <div class="text-block">
-                <h2>Disease Prevalence vs. Burden</h2>
-                <p>
-                    By comparing the global prevalence of each mental disorder with its corresponding DALY value, a scatterplot helps reveal how some disorders may be widespread but relatively less debilitating, while others—though less common—may have a disproportionate impact. The steepness of the trend line or the clustering of points indicates how DALYs change with prevalence:
+                <h2>Global Distribution of Mental Disorder Prevalence</h2>
+                <p style="font-style: italic;">
+                    Where is the mental health burden the heaviest?
                 </p>
                 <p>
-                    Depression and Anxiety disorders show a strong linear correlation, indicating that their widespread prevalence proportionally contributes to a significant global disease burden. Depressive disorders, with higher prevalence rates, show an even steeper increase in DALYs, which highlights their severe impact on quality of life. Bipolar disorders, despite lower prevalence compared to anxiety and depression, still result in substantial DALYs due to their chronic and disabling nature. Schizophrenia disorders, though rare, display a disproportionate impact on DALYs, which shows how it may have a high disease burden for affected individuals. 
+                    To understand how mental health challenges are spread across the world, We started by visualizing the overall prevalence of mental disorders geographically. Using a choropleth map, We mapped each country's prevalence rate from 1990 to 2019, with color gradients from green (low prevalence) to red (high prevalence).                </p>
+                <p>
+                    This map allows users to directly explore both spatial and temporal patterns — filtering by year to see how the burden of mental disorders evolves across time.                
+                </p>
+                <p>
+                    What this visualization reveals is a striking and stable pattern: African and South American regions have consistently experienced higher prevalence rates of mental disorders, while East Asian countries (such as China, Japan, and Singapore) maintain much lower levels over time. Despite changes in healthcare, environment, or social factors, the global distribution remains remarkably steady, highlighting persistent geographical inequalities in mental health challenges.
                 </p>
             </div>
             <div class='full-graph-container' id='viz1744508888374' style='position: relative'><noscript><a href='#'><img alt='Where is Mental Disorder Prevalence Most Severe?Explore Global Trends from 1990 to 2019 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Y4&#47;Y4T763WTR&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;Y4T763WTR' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Y4&#47;Y4T763WTR&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1744508888374');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
         </div>
         <div class="graph-div">
             <div class="text-block">
-                <h2>Disease Prevalence vs. Burden</h2>
-                <p>
-                    By comparing the global prevalence of each mental disorder with its corresponding DALY value, a scatterplot helps reveal how some disorders may be widespread but relatively less debilitating, while others—though less common—may have a disproportionate impact. The steepness of the trend line or the clustering of points indicates how DALYs change with prevalence:
+                <h2>Mental Disorder Type Trends Over Time</h2>
+                <p style="font-style: italic;">
+                    Knowing how much is only part of the story — what about the "what"?               
                 </p>
                 <p>
-                    Depression and Anxiety disorders show a strong linear correlation, indicating that their widespread prevalence proportionally contributes to a significant global disease burden. Depressive disorders, with higher prevalence rates, show an even steeper increase in DALYs, which highlights their severe impact on quality of life. Bipolar disorders, despite lower prevalence compared to anxiety and depression, still result in substantial DALYs due to their chronic and disabling nature. Schizophrenia disorders, though rare, display a disproportionate impact on DALYs, which shows how it may have a high disease burden for affected individuals. 
+                    Total prevalence tells us where the problem is severe — but not what types of mental disorders people are struggling with. To break this down, We turned to a dynamic pie chart visualization that shows the composition of different mental disorder types (Anxiety, Bipolar, Depressive, Eating, Schizophrenia) within the global population for each year.
+                </p>
+                <p>
+                    Rather than focusing on raw numbers, this visualization highlights proportions — helping us see whether the internal structure of mental health challenges is shifting over time. An interactive year slider allows users to either select a specific year or play through all years to observe trends.
+                </p>
+                <p>
+                    The insight is clear: depressive disorders and anxiety disorders dominate the global landscape across all years, consistently taking up the majority share. Meanwhile, disorders like eating disorders and schizophrenia remain relatively rare in the global context. Interestingly, despite the growing attention to mental health in recent years, the internal composition of disorder types has changed very little — reinforcing the idea that depression and anxiety have long been, and continue to be, the most prevalent mental health challenges worldwide.
                 </p>
             </div>
             <div class='full-graph-container' id='viz1744508837071' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17445017658400&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_17445017658400&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17445017658400&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1744508837071');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
